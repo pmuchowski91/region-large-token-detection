@@ -1,0 +1,34 @@
+{
+  "id": "region-large-token-detection",
+  "title": "Region Large Token Detection",
+  "description": "By default whether a token is inside a region is calculated solely on token centerpoint, this module overrides this behavior to include every space occupied by a token.",
+  "version": "#{VERSION}#",
+  "compatibility": {
+    "minimum": "13.341",
+    "verified": "13.351"
+  },
+  "esmodules": [
+    "scripts/module.js"
+  ],
+  "relationships": {
+    "requires": [
+      {
+        "id": "lib-wrapper",
+        "type": "module",
+        "manifest": "https://raw.githubusercontent.com/ruipin/fvtt-lib-wrapper/master/module.json"
+      }
+    ]
+  },
+  "authors": [
+    {
+      "name": "Paweł Muchowski",
+      "url": "https://github.com/pmuchowski91"
+    }
+  ],
+  "socket": false,
+  "url": "#{URL}#",
+  "manifest": "#{MANIFEST}#",
+  "download": "#{DOWNLOAD}#",
+  "license": "LICENSE",
+  "readme": "README.md"
+}
